@@ -1,4 +1,4 @@
-# Azure Fundamentals: Governance forensics and deployment audit trail
+# Module 1 Azure Fundamentals: Governance forensics and deployment audit trail
 
 ## Scenario
 A junior intern was granted temporary contributor access to create a test environment but failed to follow several company governance standards due to a lack of familiarity with established procedures. The investigation will assess the potential damage, identify governance and security control failures, and document evidence to determine the impact and required remediation.
