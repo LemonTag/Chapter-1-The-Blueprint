@@ -42,12 +42,26 @@ I reviewed the policy parameters and found that the effect was set to Audit. Thi
 ## What broke / what surprised me
 The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
 
-## what could go wrong and what to fix the issues.
+## what could go wrong
+If employees can deploy resources without proper reviews or security checks, several things could happen:
+- Data exposure: Someone could accidentally make a storage account public, exposing sensitive company or customer information.
+- Security breaches: An improperly configured resource could give attackers an entry point into the company's network.
+- Financial damage: Someone could deploy expensive resources unnecessarily, causing unexpected Azure bills.
+- System outages: A careless deployment could break an application or take down services customers depend on.
+- Compliance violations: Exposed customer information could violate regulations and result in fines or legal consequences.
+
+Without PIM:
+- Employees may have permanent administrator privileges.
+- Compromised accounts could give attackers powerful access.
+- Employees might accidentally change or delete important resources.
+- There is less control over who can access sensitive systems and when.
+
+## Fixes
 Provide interns with proper supervision, guidance, and training before allowing them to make changes to company resources. Make sure they understand the company's naming conventions, security standards, and policies.
 
 Allowing interns to work without proper supervision or an understanding of company procedures can lead to misconfigurations, security vulnerabilities, and potentially serious security incidents.
 
-Regular check-ins, clear instructions, and reviewing deployments before they go into production can help prevent these issues.
+Implement Privileged Identity Management (PIM) to ensure employees only receive elevated permissions when necessary and for a limited period. Require approval for sensitive administrative actions and regularly review user permissions to prevent excessive access.
 
 Challenges and Troubleshooting
 
