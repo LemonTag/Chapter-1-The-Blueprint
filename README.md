@@ -40,8 +40,6 @@ I reviewed the policy parameters and found that the effect was set to Audit. Thi
 
 
 ## What broke / what surprised me
-The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
-
 What could go wrong
 
 If employees can deploy resources without proper reviews or security checks, several things could happen:
