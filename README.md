@@ -42,6 +42,7 @@ I reviewed the policy parameters and found that the effect was set to Audit. Thi
 ## What broke / what surprised me
 The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
 
+## what could go wrong and what to fix the issues.
 Provide interns with proper supervision, guidance, and training before allowing them to make changes to company resources. Make sure they understand the company's naming conventions, security standards, and policies.
 
 Allowing interns to work without proper supervision or an understanding of company procedures can lead to misconfigurations, security vulnerabilities, and potentially serious security incidents.
