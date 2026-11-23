@@ -42,6 +42,12 @@ I reviewed the policy parameters and found that the effect was set to Audit. Thi
 ## What broke / what surprised me
 The most credible section in the document. Dead ends, wrong guesses, the thing that took an hour. Employers know real work is messy. This section separates you from certificate collectors.
 
+Provide interns with proper supervision, guidance, and training before allowing them to make changes to company resources. Make sure they understand the company's naming conventions, security standards, and policies.
+
+Allowing interns to work without proper supervision or an understanding of company procedures can lead to misconfigurations, security vulnerabilities, and potentially serious security incidents.
+
+Regular check-ins, clear instructions, and reviewing deployments before they go into production can help prevent these issues.
+
 Challenges and Troubleshooting
 
 Since this was my first time working with Azure, I got lost navigating the portal and had to revisit the instructions several times to figure out what I was missing. I initially struggled to understand terms like blades and Audit, as well as locating the Azure Policy settings and finding the policy's effect type. I made progress by slowing down, carefully rereading the instructions, and checking each step before moving forward. This helped me understand not only where to find the settings but also how the Audit effect allowed non-compliant resources to be created while recording the violation.
